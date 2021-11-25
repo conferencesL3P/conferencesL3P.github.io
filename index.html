@@ -12,12 +12,15 @@
 </head>
 
 <body>
-  <h1>Cycle<br/>de<br/>conférences</h1>
+  <h1 id="title">Cycle<br/>de<br/>conférences</h1>
   <h2>Licence 3 de Physique de Rennes | 2022</h2>
   <div id='events'></div>
   <script type='text/javascript'>
     $(document).ready(function() {
       events_div = $('#events');
+      console.log(events_div.css('margin-left'));
+      $('h1').css('margin-left',events_div.css('margin-left'));
+      $('h2').css('margin-left',events_div.css('margin-left'));
       $.getJSON('events.json', function(data) {
         events = data['events'];
         $.each(events, function(key, event) {
@@ -42,6 +45,11 @@
           event_div.appendTo(events_div);
         });
       });
+    });
+
+    $(window).resize(function() {
+      $('h1').css('margin-left',events_div.css('margin-left'));
+      $('h2').css('margin-left',events_div.css('margin-left'));
     });
   </script>
 </body>
