@@ -1,0 +1,40 @@
+{
+    "events": [
+      {
+        "subject": "Neural Network",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Tristan Boin",
+        "date": "11 Janvier 2022"
+      },
+      {
+        "subject": "2e conf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Jacques",
+        "date": "18 Janvier 2022"
+      },
+      {
+        "subject": "3e conf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Camille",
+        "date": "25 Janvier 2022"
+      },
+      {
+        "subject": "3e conf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Camille",
+        "date": "25 Janvier 2022"
+      },
+      {
+        "subject": "3e conf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Camille",
+        "date": "25 Janvier 2022"
+      },
+      {
+        "subject": "3e conf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
+        "author": "Camille",
+        "date": "25 Janvier 2022"
+      }
+    ]
+}

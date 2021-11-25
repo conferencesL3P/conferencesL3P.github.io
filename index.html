@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Cycle de conférences</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+  <script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
+</head>
+
+<body>
+  <h1>Cycle<br/>de<br/>conférences</h1>
+  <h2>Licence 3 de Physique de Rennes | 2022</h2>
+  <div id='events'></div>
+  <script type='text/javascript'>
+    $(document).ready(function() {
+      events_div = $('#events');
+      $.getJSON('events.json', function(data) {
+        events = data['events'];
+        $.each(events, function(key, event) {
+          event_div = $(document.createElement('div'));
+          event_div.addClass('event');
+          event_subject_p = $(document.createElement('p'));
+          event_author_p = $(document.createElement('p'));
+          event_description_p = $(document.createElement('p'));
+          event_date_p = $(document.createElement('p'));
+          event_subject_p.addClass('event_subject');
+          event_author_p.addClass('event_author');
+          event_description_p.addClass('event_description');
+          event_date_p.addClass('event_date');
+          event_subject_p.html(event['subject']);
+          event_author_p.html(event['author']);
+          event_description_p.html(event['description']);
+          event_date_p.html('Le ' + event['date'] + ' | 18h-19h');
+          event_subject_p.appendTo(event_div);
+          event_author_p.appendTo(event_div);
+          event_description_p.appendTo(event_div);
+          event_date_p.appendTo(event_div);
+          event_div.appendTo(events_div);
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
