@@ -1,40 +1,46 @@
 {
     "events": [
       {
-        "subject": "Neural Network",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
-        "author": "Tristan & Elisa",
+        "subject": "Introduction aux réseaux de neurones",
+        "description": "Présentation sur le fonctionnement des réseaux de neurones, modèles d'intelligence artificelle. A partir de simples principes, comment créer un réseau de neurones classifiant et résolvant des équations mathématiques.",
+        "author": "Elisa & Tristan",
+        "download_link": "",
         "date": "11 Janvier 2022"
       },
       {
-        "subject": "2e conf",
+        "subject": "Effet de serre",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
         "author": "Jacques",
+        "download_link": "",
         "date": "18 Janvier 2022"
       },
       {
-        "subject": "3e conf",
+        "subject": "Simulation Dynamique Moléculaire",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
         "author": "Camille",
+        "download_link": "",
         "date": "25 Janvier 2022"
       },
       {
-        "subject": "3e conf",
+        "subject": "Météorologie",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
-        "author": "Camille",
-        "date": "25 Janvier 2022"
+        "author": "Gabriel",
+        "download_link": "",
+        "date": "1 Février 2022"
       },
       {
-        "subject": "3e conf",
+        "subject": "Mouvements de foule",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
-        "author": "Camille",
-        "date": "25 Janvier 2022"
+        "author": "Malo & Merry",
+        "download_link": "",
+        "date": "8 Février 2022"
       },
       {
-        "subject": "3e conf",
+        "subject": "Mécanique quantique",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum est ac fringilla sollicitudin. Ut at posuere massa. Duis in est sit amet ligula pellentesque iaculis. Pellentesque et nulla et risus posuere sodales eget sit amet quam.",
-        "author": "Camille",
-        "date": "25 Janvier 2022"
+        "author": "Ethan",
+        "download_link": "",
+        "date": "22 Février 2022"
       }
     ]
 }
