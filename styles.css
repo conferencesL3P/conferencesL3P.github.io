@@ -119,6 +119,7 @@ h2{
 .event_download{
   font-family: RobotoSlab;
   margin:0 auto;
+  margin-bottom: 3px;
 }
 
 .download_unavailable{
