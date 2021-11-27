@@ -2,7 +2,7 @@
     "events": [
       {
         "subject": "Introduction aux réseaux de neurones",
-        "description": "Présentation sur le fonctionnement des réseaux de neurones, modèles d'intelligence artificelle. Exemple simple de création d'un réseau de neurones classifiant et résolvant des équations mathématiques.",
+        "description": "Conférence sur le fonctionnement des réseaux de neurones, modèles d'intelligence artificelle. Exemple simple de création d'un réseau de neurones classifiant et résolvant des équations mathématiques.",
         "author": "Elisa & Tristan",
         "download_link": "",
         "date": "11 Janvier 2022"
