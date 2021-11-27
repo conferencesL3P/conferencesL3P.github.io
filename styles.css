@@ -88,7 +88,6 @@ h2{
   flex: 1;
   border: 1px dashed #2f302f;
   padding:10px;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0, 0.05);
   transition: box-shadow .2s;
   height: 275px;
   position: relative;
@@ -146,6 +145,6 @@ a{
   margin-bottom: 25px;
 }
 
-.fa-download, .fa-calendar-alt{
+.fas, .far{
   margin-right: 5px;
 }
