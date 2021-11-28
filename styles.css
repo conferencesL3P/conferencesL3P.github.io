@@ -89,7 +89,7 @@ h2{
   border: 1px dashed #2f302f;
   padding:10px;
   transition: box-shadow .2s;
-  height: 275px;
+  height: 300px;
   position: relative;
 }
 
@@ -105,7 +105,7 @@ h2{
 .event_subject{
   font-family: Migra;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ a{
 .event_description{
   font-family: Nunito;
   font-style: italic;
-  font-size: 1.05em;
+  font-size: 1em;
   margin:0 auto;
   margin-top: 25px;
   margin-bottom: 25px;
