@@ -45,16 +45,25 @@
             event_description_p.addClass('event_description');
             event_description_p.html(event['description']);
             event_description_p.appendTo(event_content_div);
+            //Video link
+            event_video_div = $(document.createElement('div'));
+            event_video_div.addClass('event_video_div');
+            if (event['video_link'] != ''){
+              event_video = $('<iframe class="video_frame" width=1920 src="' + event['video_link'] + '" title="Conférence" frameborder="0" allowfullscreen></iframe>');
+              event_video.appendTo(event_video_div);
+            }
+            event_video_div.appendTo(event_content_div);
+            $('.video_frame').attr('width',parseInt($('.video_frame').css('width')));
+            $('.video_frame').attr('height',parseInt($('.video_frame').css('width'))/16*9);
             //Download link
-            download_link = event['download_link'];
             event_download_p = $(document.createElement('p'));
             event_download_p.addClass('event_download');
-            if (download_link == ''){
+            if (event['download_link'] == ''){
               event_download_p.addClass('download_unavailable');
               event_download_p.html('<i class="fas fa-download"></i>Pas de diapo disponible pour l\'instant.');
             }
             else{
-              event_download_p.html('<a href=pdfs/' + download_link + ' target="_"><i class="fas fa-download"></i>diapo.pdf</a>');
+              event_download_p.html('<a href=pdfs/' + event['download_link'] + ' target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
             }
             event_download_p.appendTo(event_content_div);
           }

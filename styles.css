@@ -175,3 +175,12 @@ a{
 #event_content:hover{
   box-shadow: 0px 25px 40px 10px rgba(69, 110, 76, 0.15);
 }
+
+.event_video_div{
+  border: 1px dashed #2f302f;
+  padding:10px;
+}
+
+.video_frame{
+  width:100%;
+}
