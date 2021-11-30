@@ -13,6 +13,7 @@
         "description": "Lors de cette conférence, nous allons étudier l'un des mécanismes pour décrire la température terrestre : l'effet de serre. Nous allons établir la nécessité du modèle, puis donner un bref historique de sa formation et enfin le principe du modèle et son importance actuelle.",
         "author": "Jacques",
         "download_link": "",
+        "video_link": "",
         "date": "18 Janvier 2022"
       },
       {
@@ -20,6 +21,7 @@
         "description": "Nous avons étudié au premier semestre la physique statistique, mais à quoi peut-on concrètement l'appliquer ? C'est à l'aide de la simulation moléculaire et plus particulièrement de la dynamique moléculaire que je vais vous présenter des exemples d'applications numériques de la physique statistique, ainsi que de lois fondamentales de la physique.",
         "author": "Camille",
         "download_link": "",
+        "video_link": "",
         "date": "25 Janvier 2022"
       },
       {
@@ -27,6 +29,7 @@
         "description": "Conférence en 2 parties :<br/>Première partie : explication théorique de la formation des tornades supercellulaires (conditions de formation, échelle de puissance...).<br/>Deuxième partie : Comparaison avec un cas réel : la tornade EF4 entre Nord-Pas-de-Calais et Belgique le 3 Aout 2008.",
         "author": "Gabriel",
         "download_link": "",
+        "video_link": "",
         "date": "1 Février 2022"
       },
       {
@@ -34,6 +37,7 @@
         "description": "Cette conférence a pour but d'étudier les mouvements de foules et les différentes modélisations possibles. La mécanique des fluides qui régit ces systèmes y sera décrite de façon synthétique.",
         "author": "Malo & Merry",
         "download_link": "",
+        "video_link": "",
         "date": "8 Février 2022"
       },
       {
@@ -41,6 +45,7 @@
         "description": "Hawking radiation is the phenomenon that theorizes that black holes, objects that are normally thought to capture anything in their environment, actually emit some radiation from the area near its event horizon.",
         "author": "Ethan",
         "download_link": "",
+        "video_link": "",
         "date": "22 Février 2022"
       }
     ]
