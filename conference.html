@@ -51,10 +51,10 @@
             if (event['video_link'] != ''){
               event_video = $('<iframe class="video_frame" width=1920 src="' + event['video_link'] + '" title="Conférence" frameborder="0" allowfullscreen></iframe>');
               event_video.appendTo(event_video_div);
+              event_video_div.appendTo(event_content_div);
+              $('.video_frame').attr('width',parseInt($('.video_frame').css('width')));
+              $('.video_frame').attr('height',parseInt($('.video_frame').css('width'))/16*9);
             }
-            event_video_div.appendTo(event_content_div);
-            $('.video_frame').attr('width',parseInt($('.video_frame').css('width')));
-            $('.video_frame').attr('height',parseInt($('.video_frame').css('width'))/16*9);
             //Download link
             event_download_p = $(document.createElement('p'));
             event_download_p.addClass('event_download');
