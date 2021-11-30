@@ -66,6 +66,10 @@ h2{
   margin-left: 25%;
 }
 
+p{
+  font-size: 1em;
+}
+
 #events{
   background-color: #ebe8dd;
   margin: 0 auto;
