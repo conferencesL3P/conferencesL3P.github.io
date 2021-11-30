@@ -66,8 +66,8 @@ h2{
   margin-left: 25%;
 }
 
-p{
-  font-size: 1em;
+p, i{
+  font-size: 15px;
 }
 
 #events{
