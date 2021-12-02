@@ -89,7 +89,6 @@ p, i{
 }
 
 .event{
-  margin: 5%;
   flex: 1;
   border: 1px dashed #2f302f;
   padding:10px;
@@ -143,6 +142,10 @@ p, i{
 a{
   text-decoration: none;
   color: #2f302f;
+}
+
+.event_link{
+  margin:5%;
   cursor: auto;
 }
 
