@@ -30,6 +30,7 @@
           event_a = $(document.createElement('a'));
           event_a.addClass('event_a');
           event_a.attr('href','./conference.html?author='+event['author'].replace(' & ',' et '));
+          event_a.attr('target','_blank');
           //Div
           event_div = $(document.createElement('div'));
           event_div.addClass('event');
