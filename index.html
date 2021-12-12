@@ -26,12 +26,13 @@
       $.getJSON('events.json', function(data) {
         events = data['events'];
         $.each(events, function(key, event) {
-          event_link = $(document.createElement('a'));
-          event_link.addClass('event_link');
-          event_link.attr('href','./conference.html?author='+event['author'].replace(' & ',' et '));
+          //Link
+          event_a = $(document.createElement('a'));
+          event_a.addClass('event_a');
+          event_a.attr('href','./conference.html?author='+event['author'].replace(' & ',' et '));
+          //Div
           event_div = $(document.createElement('div'));
           event_div.addClass('event');
-          //event_div.attr('onclick','window.location.href="/conference.html?author=' + event['author'] + '"');
           //Subject
           event_subject_p = $(document.createElement('p'));
           event_subject_p.addClass('event_subject');
@@ -47,7 +48,7 @@
           event_description_p.addClass('event_description');
           event_description_p.html(event['description']);
           event_description_p.appendTo(event_div);
-          //Bottom div
+          //Footer Info Div
           event_footer = $(document.createElement('div'));
           event_footer.addClass('event_footer');
           //Download link
@@ -68,8 +69,8 @@
           event_date_p.appendTo(event_footer);
 
           event_footer.appendTo(event_div);
-          event_div.appendTo(event_link);
-          event_link.appendTo(events_div);
+          event_div.appendTo(event_a);
+          event_a.appendTo(events_div);
         });
       });
     });
