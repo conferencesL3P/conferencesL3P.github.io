@@ -143,6 +143,11 @@ a{
   cursor: auto;
 }
 
+.event_date{
+  font-family: RobotoSlab;
+  margin: 0 auto;
+}
+
 #event_date{
   margin: 0 auto;
 }
