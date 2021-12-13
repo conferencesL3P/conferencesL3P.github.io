@@ -30,7 +30,6 @@
           event_a = $(document.createElement('a'));
           event_a.addClass('event_a');
           event_a.attr('href','./conference.html?author='+event['author'].replace(' & ',' et '));
-          event_a.attr('target','_blank');
           //Div
           event_div = $(document.createElement('div'));
           event_div.addClass('event');
@@ -66,7 +65,7 @@
           //Date
           event_date_p = $(document.createElement('p'));
           event_date_p.addClass('event_date');
-          event_date_p.html('<i class="far fa-calendar-alt"></i></i></i>Le ' + event['date'] + ' | 18h-19h');
+          event_date_p.html('<i class="far fa-calendar-alt"></i></i></i>Le ' + event['date'] + ' | 16h15-17h15');
           event_date_p.appendTo(event_footer);
 
           event_footer.appendTo(event_div);
