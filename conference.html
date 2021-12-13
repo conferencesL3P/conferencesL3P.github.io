@@ -17,6 +17,7 @@
 <body>
   <h1 id='title'>Conférence<br/>de<br/></h1>
   <h2 id='event_date'></h2>
+  <h2 id='event_place'></h2>
   <div id='event_content'></div>
   <script type='text/javascript'>
     url_string = window.location.href;
@@ -35,6 +36,7 @@
             //Subject
             $('#title').html(event['subject']);
             $('#event_date').html('<i class="far fa-calendar-alt"></i></i></i>Le ' + event['date'] + ' | 16h15-17h');
+            $('#event_place').html('<i class="fas fa-map-marker-alt"></i>Amphi C');
             //Author
             event_author_p = $(document.createElement('p'));
             event_author_p.addClass('event_author');

@@ -143,9 +143,15 @@ a{
   cursor: auto;
 }
 
-.event_date{
-  font-family: RobotoSlab;
+#event_date{
+
   margin: 0 auto;
+}
+
+#event_place{
+  
+  margin:0 auto;
+  margin-bottom: 100px;
 }
 
 .event_description{
