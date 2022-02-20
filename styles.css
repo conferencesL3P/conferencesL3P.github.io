@@ -99,6 +99,7 @@ p, i{
 .event_footer{
   position: absolute;
   bottom: 5px;
+  width: 100%;
 }
 
 .event_subject{
@@ -166,7 +167,7 @@ a{
   margin-bottom: 25px;
 }
 
-.fas, .far{
+.fas, .far, .fa-solid{
   margin-right: 5px;
 }
 
@@ -189,4 +190,20 @@ a{
 
 .video_frame{
   width:100%;
+}
+
+.video_symbol{
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+  color: #528c5c;
+}
+
+.video_unavailable{
+  color: #bdbbb2;
+}
+
+.video_symbol i{
+  font-size: 16px;
 }

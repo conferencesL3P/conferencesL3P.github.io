@@ -10,7 +10,7 @@
   <link rel='preconnect' href='https://fonts.googleapis.com'>
   <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
   <link href='https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap' rel='stylesheet'>
-  <script src='https://kit.fontawesome.com/aefb5f6e60.js' crossorigin='anonymous'></script>
+  <script src="https://kit.fontawesome.com/1c5060d9dc.js" crossorigin="anonymous"></script>
   <script src='https://code.jquery.com/jquery-3.6.0.min.js' integrity='sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' crossorigin='anonymous'></script>
 </head>
 
@@ -61,11 +61,19 @@
           else{
             event_download_p.html('<a href=pdfs/' + event['download_link'] + ' target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
           }
+          //Video Symbol
+          event_video_p = $(document.createElement('p'));
+          event_video_p.addClass('video_symbol');
+          event_video_p.html('<i class="fa-solid fa-photo-film"></i>');
+          if (event['video_link'] == ''){
+            event_video_p.addClass('video_unavailable');
+          }
           event_download_p.appendTo(event_footer);
+          event_video_p.appendTo(event_footer);
           //Date
           event_date_p = $(document.createElement('p'));
           event_date_p.addClass('event_date');
-          event_date_p.html('<i class="far fa-calendar-alt"></i></i></i>Le ' + event['date'] + ' | 16h15-17h');
+          event_date_p.html('<i class="fa-solid fa-calendar-day"></i></i></i>Le ' + event['date'] + ' | 16h15-17h');
           event_date_p.appendTo(event_footer);
 
           event_footer.appendTo(event_div);
