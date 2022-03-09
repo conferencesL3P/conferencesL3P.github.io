@@ -54,12 +54,13 @@
           //Download link
           event_download_p = $(document.createElement('p'));
           event_download_p.addClass('event_download');
+          console.log(event['download_link']);
           if (event['download_link'] == ''){
             event_download_p.addClass('download_unavailable');
             event_download_p.html('<i class="fas fa-download"></i>Pas de diapo disponible pour l\'instant');
           }
           else{
-            event_download_p.html('<a href=pdfs/' + event['download_link'] + ' target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
+            event_download_p.html('<a href="pdfs/' + event['download_link'] + '" target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
           }
           //Video Symbol
           event_video_p = $(document.createElement('p'));

@@ -23,7 +23,6 @@
     url_string = window.location.href;
     url = new URL(url_string);
     author = url.searchParams.get("author").replace(' et ',' & ');
-    console.log(author)
     $(document).ready(function() {
       event_content_div = $('#event_content');
       $('h1').css('margin-left',event_content_div.css('margin-left'));
@@ -62,7 +61,7 @@
               event_download_p.html('<i class="fas fa-download"></i>Pas de diapo disponible pour l\'instant.');
             }
             else{
-              event_download_p.html('<a href=pdfs/' + event['download_link'] + ' target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
+              event_download_p.html('<a href="pdfs/' + event['download_link'] + '" target="_" class="download_link"><i class="fas fa-download"></i>diapo.pdf</a>');
             }
             event_download_p.appendTo(event_content_div);
           }
